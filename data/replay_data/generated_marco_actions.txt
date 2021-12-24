@@ -1,0 +1,11 @@
+frq:164  select_point(Nexus) -> Train_Probe_quick
+frq:65  select_point(Gateway) -> Train_Zealot_quick
+frq:48  select_army -> Attack_minimap
+frq:26  select_point(Gateway) -> Train_Stalker_quick
+frq:14  select_army -> Attack_screen
+frq:14  select_point(Probe) -> Harvest_Gather_screen(MineralField)
+frq:10  select_point(Probe) -> Build_Assimilator_screen -> Harvest_Gather_screen(MineralField)
+frq:9  select_point(Probe) -> Build_Pylon_screen -> Harvest_Gather_screen(MineralField)
+frq:9  select_point(Probe) -> Harvest_Gather_screen(Assimilator)
+frq:7  select_point(Probe) -> Build_Gateway_screen -> Harvest_Gather_screen(MineralField)
+frq:4  select_point(Probe) -> Build_CyberneticsCore_screen

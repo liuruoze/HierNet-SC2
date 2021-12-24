@@ -1,0 +1,1 @@
+Note that due to the original script (in C++) having already been accidentally lost, we provide a python script here, using the same algorithm in the paper. Thus the results are slightly different, but the constructed final macro-actions are the same.

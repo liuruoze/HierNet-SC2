@@ -1,0 +1,2 @@
+model_checkpoint_path: "probe"
+all_model_checkpoint_paths: "probe"
