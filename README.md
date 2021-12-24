@@ -22,7 +22,7 @@ The below table shows the data for training and generating content.
 Dir | Content
 ------------ | -------------
 data/replay | 30 replays played by the expert for generating macro actions
-data/replay_data | using data mining algorithms to mine information from the above replays to generate the useful actions
+data/replay_data | using data mining algorithms to mine macro actions from the above replays
 
 ## Logs
 
