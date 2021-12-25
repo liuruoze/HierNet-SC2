@@ -8,14 +8,14 @@ The below table shows the scripts and codes in the project. We provide codes for
 
 Content | Description
 ------------ | -------------
-./main.py | script for the main training code
-./mine_from_replay.py | script for extracting from replays to generate macro-actions
+./main.py | the script for the main training code
+./mine_from_replay.py | the script for extracting from replays to generate macro-actions
+./play_for_replay.py | the script to play the game for experts to generate replays 
 ./multi_agent.py | the codes for the agent in the RL training
 ./new_network.py | the codes for the neural network model in the agent
-./param.py | hyper-parameters in the neural network
-./play_for_replay.py | script to play the game for experts to generate replays 
-./algo/ | used algorithms like ppo
-./lib/ | used library functions
+./param.py | the hyper-parameters in the neural network
+./algo/ | the algorithms like ppo
+./lib/ | the library functions
 
 
 ## Data
@@ -29,22 +29,22 @@ Content | Description
 
 ## Logs
 
-The below table shows the logs for training for difficult level-8, level-9, and level-10.
+The below table shows the logs for training on difficult level-8, level-9, and level-10.
 
 Content | Description
 ------------ | -------------
-./logs/lv10-0.20_to_0.90/ | trainging in lv-10 win-rate from 0.20 to 0.90, lr=1e-4
-./logs/lv10-0.90_to_0.94/ | trainging in lv-10 win-rate from 0.90 to 0.94, lr=1e-5
-./logs/lv8-0_to_0.960/ | trainging in lv-10 win-rate to 0.960, lr=1e-5, restore=lv10-0.20_to_0.90
-./logs/lv9-0_to_0.967/ | trainging in lv-10 win-rate to 0.967, lr=1e-5, restore=lv10-0.20_to_0.90
+./logs/lv10-0.20_to_0.90/ | the training log in lv-10 which takes the win-rate from 0.20 to 0.90
+./logs/lv10-0.90_to_0.94/ | the training log in lv-10 which takes the  win-rate from 0.90 to 0.94
+./logs/lv8-0_to_0.960/ | the training log in lv-8 which takes the  win-rate to 0.960, restore=lv10-0.20_to_0.90
+./logs/lv9-0_to_0.967/ | the training log in lv-9 which takes the  win-rate to 0.967, restore=lv10-0.20_to_0.90
 
 ## Model
 
-We provide the 0.94 win-rate model trained in lv-10 as below.
+We provide the trained 0.94 win-rate model in lv-10 as below.
 
 Content | Description
 ------------ | -------------
-./model/lv10-0.94/ | trainging in lv-10 win-rate, final win rate is 0.94
+./model/lv10-0.94/ | the model which gets win-rate 0.94 in lv-10
 
 ### Requirements
 
