@@ -46,7 +46,7 @@ Content | Description
 ------------ | -------------
 ./model/lv10-0.94/ | the model which gets win-rate 0.94 in lv-10
 
-### Requirements
+## Requirements
 
 - python==3.5
 - tensorflow==1.5
@@ -56,7 +56,7 @@ Content | Description
 - scipy==1.1.0
 - prefixspan==0.5.2
 
-### Install
+## Install
 
 A simple straightway is, you can first use conda like:
 ```
@@ -74,6 +74,6 @@ Then you can install other python packages by pip, e.g., the command is:
 pip install -r requirements.txt
 ```
 
-### Usage
+## Usage
 
 Run main.py to train an agent (P vs. T) against the built-in bot (lv-10) in StarCraft II. 
