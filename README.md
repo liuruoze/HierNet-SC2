@@ -1,6 +1,6 @@
 # HierNet-SC2
 
-Codes, data, models, and the associated logs for the paper "On Reinforcement Learning for Full-length Game of StarCraft".
+The codes, data, models, and logs for the paper "On Reinforcement Learning for Full-length Game of StarCraft".
 
 ## Codes
 
@@ -50,18 +50,29 @@ Content | Description
 
 - python==3.5
 - tensorflow==1.5
-- future==0.16
+- future==0.18.2
 - pysc2==1.2
-- matplotlib==2.1
-- scipy==1.0
+- matplotlib==3.3.4
+- scipy==1.1.0
+- prefixspan==0.5.2
 
-**Notes:**
+### Install
 
-If you install pysc2==1.2 and find this error "futures requires Python '>=2.6, <3' but the running Python is 3.5.6", then try first install futures as follow
+A simple straightway is, you can first use conda like:
 ```
-pip install futures==3.1.1
+conda create -n tf_1_5 python=3.5 tensorflow-gpu=1.5
 ```
-then install pysc2==1.2, and this problem is solved.
+to install Tensorflow-gpu 1.5 (with accompanied CUDA and cudnn).
+
+Next, you should activate the conda environment, like:
+```
+conda activate tf_1_5
+```
+
+Then you can install other python packages by pip, e.g., the command is:
+```
+pip install -r requirements.txt
+```
 
 ### Usage
 
