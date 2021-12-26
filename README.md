@@ -8,14 +8,14 @@ The below table shows the scripts and codes in the project. We provide codes for
 
 Content | Description
 ------------ | -------------
-./main.py | the script for the main training code
-./mine_from_replay.py | the script for extracting from replays to generate macro-actions
-./play_for_replay.py | the script to play the game for experts to generate replays 
-./multi_agent.py | the codes for the agent in the RL training
-./new_network.py | the codes for the neural network model in the agent
-./param.py | the hyper-parameters in the neural network
-./algo/ | the algorithms like ppo
-./lib/ | the library functions
+[main.py](main.py) | the script for the main training code
+[mine_from_replay.py](mine_from_replay.py) | the script for extracting from replays to generate macro-actions
+[play_for_replay.py](play_for_replay.py) | the script to play the game for experts to generate replays 
+[multi_agent.py](multi_agent.py) | the codes for the agent in the RL training
+[new_network.py](new_network.py) | the codes for the neural network model in the agent
+[param.py](param.py) | the hyper-parameters in the neural network
+[algo/](algo/) | the algorithms like ppo
+[lib/](algo) | the library functions
 
 
 ## Data
