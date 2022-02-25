@@ -1,26 +1,26 @@
 # HierNet-SC2
 
-The codes, data, models, and logs for the paper "On Reinforcement Learning for Full-length Game of StarCraft".
+This repository is the official code of the journal version of the paper "On Reinforcement Learning for Full-length Game of StarCraft".
 
 ## Codes
 
-The below table shows the scripts and codes in the project. We provide codes for the main training of a strong agent, playing to generate replays, and extracting in replays to generate macros. 
+The below table shows the codes in the project. We provide codes for the training of agents, generating replays, and mining macro actions. 
 
 Content | Description
 ------------ | -------------
-./main.py | the script for the main training code
-./mine_from_replay.py | the script for extracting from replays to generate macro-actions
-./play_for_replay.py | the script to play the game for experts to generate replays 
-./multi_agent.py | the codes for the agent in the RL training
-./new_network.py | the codes for the neural network model in the agent
-./param.py | the hyper-parameters in the neural network
-./algo/ | the algorithms like ppo
+./main.py | the codes for the training code
+./mine_from_replay.py | the codes for mining macro-actions
+./play_for_replay.py | the codes for generating replays 
+./multi_agent.py | the codes for the agent
+./new_network.py | the codes for the neural network model
+./param.py | the hyper-parameters
+./algo/ | the algorithm of ppo
 ./lib/ | the library functions
 
 
 ## Data
 
-The below table shows the data for training and generating content.
+The below table shows the data for training agent and generating macro actions.
 
 Content | Description
 ------------ | -------------
@@ -29,7 +29,7 @@ Content | Description
 
 ## Logs
 
-The below table shows the logs for training on difficult level-8, level-9, and level-10.
+The below table shows the logs of training on cheating level built-in AIs.
 
 Content | Description
 ------------ | -------------
@@ -40,7 +40,7 @@ Content | Description
 
 ## Model
 
-We provide the trained 0.94 win-rate model in lv-10 as below.
+The below table shows the model of a 0.94 win rate in lv-10.
 
 Content | Description
 ------------ | -------------
@@ -76,4 +76,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run main.py to train an agent (P vs. T) against the built-in bot (lv-10) in StarCraft II. 
+Run main.py to train an agent against the most difficult built-in bot (lv-10) in StarCraft II. 
+
+Run mine_from_replay.py to mine macro actions from replays. 
+
+Run play_for_replay.py to generate replays by your selves. 
