@@ -1,6 +1,6 @@
 # HierNet-SC2
 
-This repository is the official code of the journal version of the paper "On Reinforcement Learning for Full-length Game of StarCraft".
+This repository is the code for the extended version of the paper "On Reinforcement Learning for Full-length Game of StarCraft" (AAAI 2019).
 
 ## Codes
 
