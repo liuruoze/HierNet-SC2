@@ -2,7 +2,9 @@
 
 This repository contains the codes, models, training logs, and data for an extended paper of the original conference paper on AAAI 2019, "On Reinforcement Learning for Full-length Game of StarCraft".
 
-The extended journal paper in [JAIR](https://jair.org/index.php/jair/article/view/13743) and the arxiv link is [here](https://arxiv.org/abs/2209.11553).
+The extended journal paper is named "On Efficient Reinforcement Learning for Full-length Game of StarCraft II", and is published in [JAIR](https://jair.org/index.php/jair/article/view/13743). 
+
+The arxiv link is [here](https://arxiv.org/abs/2209.11553).
 
 ## Codes
 
